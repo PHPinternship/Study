@@ -1,0 +1,16 @@
+/*before/
+p {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+
+after*/
+p {
+    font: 40px bold italic Arial;
+    text-indent: 50px;
+    line-height: 60px;
+}

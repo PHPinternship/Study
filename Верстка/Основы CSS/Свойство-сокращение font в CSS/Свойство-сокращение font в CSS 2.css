@@ -1,0 +1,15 @@
+/*before/
+p {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+after*/
+p {
+    width: 300px;
+    font: 40px bold Arial;
+    color: red;
+}

@@ -1,0 +1,11 @@
+p {
+    width: 300px;
+}
+td {
+    border: 1px solid;
+    width: 400px;
+    height: 300px;
+}
+table {
+    border: 1px solid;
+}
