@@ -1,0 +1,25 @@
+<?php
+$num = 3;
+echo '1) '.++$num.'<br>';
+$num = 3;
+echo '2) '.$num++.'<br>';
+$num = 3;
+echo '3) '.--$num.'<br>';
+$num = 3;
+echo '4) '.$num--.'<br>';
+$num1 = 3;
+$num2 = ++$num1;
+echo '5) '.$num1 . ' '.$num2.'<br>';
+$num1 = 3;
+$num2 = $num1++;
+echo '6) '.$num1 . ' '.$num2.'<br>';
+$num1 = 3;
+$num2 = --$num1;
+echo '7) '.$num1 . ' '.$num2.'<br>';
+$num1 = 3;
+$num2 = $num1--;
+echo '8) '.$num1 . ' '.$num2.'<br>';
+$num1 = 3;
+$num1++;
+$num2 = $num1--;
+echo '9) '.$num1++ . ' '.--$num2;

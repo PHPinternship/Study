@@ -1,0 +1,21 @@
+<?php
+$seconds = 24 * 60 * 60;
+echo 'Секунд в сутках - '.$seconds.'<br>';
+$days30 = 24 * 60 * 60 * 30;
+echo 'Секунд в 30 сутках - '.$days30.'<br>';
+$days365 = 24 * 60 * 60 * 365;
+echo 'Секунд в году (не високосном) - '.$days365.'<br>';
+$minutes = 60 * 24;
+echo 'Минут в сутках - '.$minutes.'<br>';
+$minutes365 = 60 * 24 * 365;
+echo 'Минут в году - '.$minutes365.'<br>';
+$megabyte = 1024 * 1024;
+echo 'В одном МБ '.$megabyte.' байт'.'<br>';
+$gigabyte = 1024 * 1024 * 1024;
+echo 'В одном гигабайте '.$gigabyte.' байт'.'<br>';
+$gigabyte10 = $gigabyte * 10;
+echo 'В десяти гигабайтах '.$gigabyte10.' байт'.'<br>';
+$terabyte = $gigabyte * 1024;
+echo 'В терабайте '.$terabyte.' байт'.'<br>';
+$kilobyte = $terabyte / 1024;
+echo 'В терабайте '.$kilobyte.' килобайт';
