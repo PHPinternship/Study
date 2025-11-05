@@ -1,0 +1,18 @@
+p {
+    color: blue;
+}
+b {
+    color: red;
+}
+ul {
+    color: blue;
+    font-size: 20px;
+}
+li {
+    color: red;
+    font-weight: bold;
+}
+i {
+    color: green;
+    font-size: 30px;
+}
