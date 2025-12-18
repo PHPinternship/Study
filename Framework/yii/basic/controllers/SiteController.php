@@ -136,7 +136,7 @@ class SiteController extends Controller
         return $this->render('say', ['message' => $message]);
     }
     /**
-     * Echoes back the message or returns "Hello" if no parameter is provided.
+     * Creates an e-mail Submit form and returns the submitted values if validation is successful
      *
      * @return string
      */
